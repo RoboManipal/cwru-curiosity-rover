@@ -1,0 +1,16 @@
+<package>
+  <description brief="Localizer">
+
+     Localizer
+
+  </description>
+  <author>eddie</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/Localizer</url>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+
+</package>
+
+

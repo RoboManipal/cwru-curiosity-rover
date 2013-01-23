@@ -1,0 +1,36 @@
+#uniform probability 1/(b-a) 
+#world = ['blue', 'red', 'blue', 'green', 'red', 'green']
+world = ['green', 'red', 'red', 'green', 'green']
+measurements = ['red', 'green'] #Z
+p=[] #probability list
+weight = 1.0
+n= len(world) #length of grid cells
+
+#prior prob. dist. function
+for i in range(len(world)):
+    p.append(weight/n)
+
+
+pHit = 0.6
+pMiss = 0.2
+
+def sense(p,Z):
+    q = []
+    #make posterior belief
+    for i in range(len(world)):
+        hit = (Z == world[i])
+        q.append(p[i] * (hit * pHit + (1-hit) * pMiss))
+        
+    #normalize the probility distrubution
+    s = sum(q)
+    for j in range(len(p)):
+        q[j] = q[j]/s
+
+    return q
+
+for k in range(len(measurements)):
+    p = sense(p, measurements[k])
+
+print p 
+
+
