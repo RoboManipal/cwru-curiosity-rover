@@ -1,6 +1,19 @@
+'''
+This class is used for localization of the cwru lunabot in the arena
+It will eventually take in postieror pdf for the from the vision sensor
+and range sensor to determine the initial position of the robot
+in the mining field
+
+Author: Eddie Massey III
+
+
+
+
+
+'''
+
 #uniform probability 1/(b-a) 
-#world = ['blue', 'red', 'blue', 'green', 'red', 'green']
-world = ['green', 'red', 'red', 'green', 'green']
+world = ['blue', 'red', 'blue', 'green', 'red', 'green']
 measurements = ['red', 'green'] #Z
 p=[] #probability list
 weight = 1.0
