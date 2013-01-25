@@ -1,0 +1,15 @@
+<package>
+  <description brief="FiducialFinder">
+
+     FiducialFinder
+
+  </description>
+  <author>eddie</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/FiducialFinder</url>
+  <depend package="roscpp"/>
+
+</package>
+
+
