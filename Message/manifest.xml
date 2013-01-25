@@ -1,0 +1,16 @@
+<package>
+  <description brief="Message">
+
+     Message
+
+  </description>
+  <author>eddie</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/Message</url>
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+
+</package>
+
+
