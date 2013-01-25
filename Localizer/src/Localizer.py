@@ -17,7 +17,7 @@ world = ['blue', 'red', 'blue', 'green', 'red', 'green']
 measurements = ['red', 'green'] #Z
 p=[] #probability list
 weight = 1.0
-n= len(world) #length of grid cells
+n= len(world) #(b-a)
 
 #prior prob. dist. function
 for i in range(len(world)):

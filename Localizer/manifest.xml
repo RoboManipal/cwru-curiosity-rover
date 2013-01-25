@@ -9,7 +9,7 @@
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/Localizer</url>
   <depend package="rospy"/>
-  <depend package="roscpp"/>
+
 
 </package>
 
